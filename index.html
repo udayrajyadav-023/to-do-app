@@ -32,7 +32,7 @@ function arrayToList(){
     for(let i=0;i<todolist.length;i++){
         
     output=output+` <li class="list-group-item">
-        <span style="curser:pointer " onclick="doneTask(this)">${todolist[i]}</span>
+        <span style="cursor:pointer" onclick="doneTask(this)">${todolist[i]}</span>
         <button  onclick="removeTask('${todolist[i]}')">x</button> </li>`;
 
     }
